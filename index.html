@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>PIN Pad</title>
+  </head>
+  <body>
+    <div id="container">
+      <input type="password" id="pinCode" readonly />
+
+      <span
+        class="key number1"
+        onclick="document.getElementById('pinCode').value += '1'"
+        >1</span
+      >
+      <span
+        class="key number2"
+        onclick="document.getElementById('pinCode').value += '2'"
+        >2</span
+      >
+      <span
+        class="key number3"
+        onclick="document.getElementById('pinCode').value += '3'"
+        >3</span
+      ><br /><br /><br />
+      <span
+        class="key number4"
+        onclick="document.getElementById('pinCode').value += '4'"
+        >4</span
+      >
+      <span
+        class="key number5"
+        onclick="document.getElementById('pinCode').value += '5'"
+        >5</span
+      >
+      <span
+        class="key number6"
+        onclick="document.getElementById('pinCode').value += '6'"
+        >6</span
+      ><br /><br /><br />
+      <span
+        class="key number7"
+        onclick="document.getElementById('pinCode').value += '7'"
+        >7</span
+      >
+      <span
+        class="key number8"
+        onclick="document.getElementById('pinCode').value += '8'"
+        >8</span
+      >
+      <span
+        class="key number9"
+        onclick="document.getElementById('pinCode').value += '9'"
+        >9</span
+      ><br /><br /><br />
+      <span class="key backspace" onclick="backspace()">⌫</span>
+      <span
+        class="key number0"
+        onclick="document.getElementById('pinCode').value += '0'"
+        >0</span
+      >
+      <span class="key check" onclick="check()">✔</span>
+    </div>
+  </body>
+</html>

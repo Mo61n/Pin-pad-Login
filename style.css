@@ -1,0 +1,137 @@
+body {
+  -webkit-user-select: none;
+  user-select: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(4, 5, 80, 0.894);
+}
+
+#container {
+  align-items: center;
+  position: relative;
+  top: -80px;
+  background-color: rgb(70, 91, 198);
+  height: 500px;
+  width: 700px;
+  text-align: center;
+  padding: 40px 40px;
+  border-radius: 10px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#pinCode {
+  position: relative;
+  left: 110px;
+  font-size: 36px;
+  width: 250px;
+  text-align: center;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  animation-name: Er;
+}
+
+.key.number1 {
+  position: relative;
+  top: 90px;
+  left: -280px;
+}
+
+.key.number2 {
+  position: relative;
+  top: 90px;
+  left: -127px;
+}
+
+.key.number3 {
+  position: relative;
+  top: 90px;
+  left: 50px;
+}
+
+.key.number4 {
+  position: relative;
+  left: -154px;
+  top: 120px;
+}
+
+.key.number5 {
+  position: relative;
+  top: 120px;
+}
+
+.key.number6 {
+  position: relative;
+  top: 120px;
+  left: 177px;
+}
+
+.key.number7 {
+  position: relative;
+  top: 140px;
+  left: -154px;
+}
+
+.key.number8 {
+  position: relative;
+  top: 140px;
+}
+
+.key.number9 {
+  position: relative;
+  top: 140px;
+  left: 177px;
+}
+
+.key.number0 {
+  position: relative;
+  top: 170px;
+  left: -3px;
+}
+
+#container .key {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.4);
+  color: white;
+  padding: 10px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+}
+
+#container .key:active {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#container .key.backspace {
+  position: relative;
+  top: 170px;
+  left: -154px;
+  font-size: 44px;
+  padding-left: 5px;
+  padding-right: 10px;
+  padding-top: 12px;
+  padding-bottom: 11px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: aqua;
+}
+
+#container .key.backspace:active {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+#container .key.check {
+  position: relative;
+  top: 170px;
+  left: 176px;
+  padding-left: 15px;
+  padding-right: 14px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: aqua;
+}
